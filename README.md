@@ -11,7 +11,7 @@ mvn exec:java -Dexec.mainClass="com.example.Main"
 
 ## Example code
 
-Check out the file in `src/main/java/com/moreapp/starterkit/Example` to see interaction with the API
+Check out the file `src/main/java/com/moreapp/starterkit/Example.java` to see interaction with the API.
 
 The example code reads a properties file from disc.
 

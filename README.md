@@ -6,7 +6,7 @@ An example project to help MoreApp partners with their first usage of the API.
 
 ```
 mvn clean install
-mvn exec:java -Dexec.mainClass="com.example.Main"
+mvn exec:java
 ```
 
 ## Example code
@@ -20,7 +20,7 @@ Properties properties = new Properties();
 properties.load(Example.class.getResourceAsStream(...));
 ```
 
-It sets up an client with authorization settings (using the loaded properties file).
+It sets up a client with authorization settings (using the loaded properties file).
 
 ```
 OAuthRestTemplate oAuthRestTemplate = prepareClient(properties);

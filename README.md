@@ -51,7 +51,7 @@ for (Map customer : customers) {
 
 To use the example for your own usage change the file `src/main/resources/com/moreapp/starterkit/api.properties`.
 
-- The `endpoint` should be `https://api.moreapp.com/api/v1.0`. For the example we the MoreApp develop environment. Please do not use this.  
-- The `salt` property should be changed into the salt that you can acquire in de developer portal under FAQ. 
+- The `endpoint` should be `https://api.moreapp.com/api/v1.0`. For the example we use the MoreApp develop environment. Please do not use this.  
+- The `salt` property should be replaced with the salt that you can acquire in de developer portal under FAQ. 
 - The `consumerKey` and `consumerSecret` properties should be changed into the correct partner credentials.
 

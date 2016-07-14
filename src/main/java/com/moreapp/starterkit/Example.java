@@ -51,7 +51,7 @@ public class Example {
         //Setup the credentials
         BaseProtectedResourceDetails resource = new BaseProtectedResourceDetails();
         resource.setConsumerKey(properties.getProperty("consumerKey"));
-        String hash = hash(properties.getProperty("salt"), properties.getProperty("consumerSecret").toCharArray());
+        String hash = hash(properties.getProperty("salt"), properties.getProperty("password").toCharArray());
         resource.setSharedSecret(new SharedConsumerSecretImpl(hash));
         resource.setAuthorizationHeaderRealm("more");
 
